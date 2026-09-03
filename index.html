@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="ICSE Class 10 Educational Hub - Study material, PYQs, CFQs and specimen papers."
+    >
+
+    <title>ICSE Class 10 Hub | Madhav</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+     ===================================================== -->
+
+<header>
+
+    <div class="logo">
+        📚 ICSE <span>Class 10 Hub</span>
+    </div>
+
+    <button
+        id="darkBtn"
+        type="button"
+        onclick="toggleDark()"
+        aria-label="Toggle dark mode"
+    >
+        🌙
+    </button>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO
+     ===================================================== -->
+
+<section class="hero">
+
+    <h1>
+        Study Smarter.<br>
+        <span class="gradient">Score Better.</span>
+    </h1>
+
+    <p>
+        Complete educational hub for ICSE Class 10 students.
+        Access study material, previous year papers,
+        CFQs and specimen papers in one place.
+    </p>
+
+
+    <div class="search">
+
+        <input
+            id="search"
+            type="text"
+            placeholder="🔍 Search a subject or resource..."
+            onkeyup="searchContent()"
+            aria-label="Search resources"
+        >
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     MAIN CONTENT
+     ===================================================== -->
+
+<main class="container">
+
+
+
+<!-- =====================================================
+     SUBJECTS
+     ===================================================== -->
+
+<section class="section">
+
+    <h2 class="title">
+        📚 Class 10 Subjects
+    </h2>
+
+    <p class="subtitle">
+        Select a subject to access the study material.
+    </p>
+
+
+    <div class="subject-grid">
+
+
+        <!-- MATHEMATICS -->
+
+        <div class="subject searchable">
+
+            <div class="icon">
+                📐
+            </div>
+
+            <h3>
+                Mathematics
+            </h3>
+
+            <p>
+                Mathematics notes, formulas,
+                PYQs and practice material.
+            </p>
+
+            <a
+                class="drive-btn"
+                href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                📂 Open Drive →
+            </a>
+
+        </div>
+
+
+
+        <!-- PHYSICS -->
+
+        <div class="subject searchable">
+
+            <div class="icon">
+                ⚡
+            </div>
+
+            <h3>
+                Physics
+            </h3>
+
+            <p>
+                Physics concepts, formulas,
+                numericals and PYQs.
+            </p>
+
+            <a
+                class="drive-btn"
+                href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                📂 Open Drive →
+            </a>
+
+        </div>
+
+
+
+        <!-- CHEMISTRY -->
+
+        <div class="subject searchable">
+
+            <div class="icon">
+                🧪
+            </div>
+
+            <h3>
+                Chemistry
+            </h3>
+
+            <p>
+                Reactions, equations,
+                concepts and important questions.
+            </p>
+
+            <a
+                class="drive-btn"
+                href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                📂 Open Drive →
+            </a>
+
+        </div>
+
+
+
+        <!-- BIOLOGY -->
+
+        <div class="subject searchable">
+
+            <div class="icon">
+                🧬
+            </div>
+
+            <h3>
+                Biology
+            </h3>
+
+            <p>
+                Biology diagrams, definitions,
+                notes and previous questions.
+            </p>
+
+            <a
+                class="drive-btn"
+                href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                📂 Open Drive →
+            </a>
+
+        </div>
+
+
+
+        <!-- HISTORY -->
+
+        <div class="subject searchable">
+
+            <div class="icon">
+                📜
+            </div>
+
+            <h3>
+                History & Civics
+            </h3>
+
+            <p>
+                History and Civics notes,
+                questions and revision material.
+            </p>
+
+            <a
+                class="drive-btn"
+                href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                📂 Open Drive →
+            </a>
+
+        </div>
+
+
+
+        <!-- GEOGRAPHY -->
+
+        <div class="subject searchable">
+
+            <div class="icon">
+                🌍
+            </div>
+
+            <h3>
+                Geography
+            </h3>
+
+            <p>
+                Geography notes, maps,
+                PYQs and specimen papers.
+            </p>
+
+            <a
+                class="drive-btn"
+                href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                📂 Open Drive →
+            </a>
+
+        </div>
+
+
+
+        <!-- ENGLISH -->
+
+        <div class="subject searchable">
+
+            <div class="icon">
+                📖
+            </div>
+
+            <h3>
+                English
+            </h3>
+
+            <p>
+                English Language and Literature
+                study material and practice.
+            </p>
+
+            <a
+                class="drive-btn"
+                href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                📂 Open Drive →
+            </a>
+
+        </div>
+
+
+
+        <!-- COMPUTER -->
+
+        <div class="subject searchable">
+
+            <div class="icon">
+                💻
+            </div>
+
+            <h3>
+                Computer Applications
+            </h3>
+
+            <p>
+                Java programs, theory,
+                questions and practice.
+            </p>
+
+            <a
+                class="drive-btn"
+                href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                📂 Open Drive →
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EXAM RESOURCES
+     ===================================================== -->
+
+<section class="section">
+
+    <h2 class="title">
+        📝 Exam Resources
+    </h2>
+
+    <p class="subtitle">
+        Important resources for ICSE Class 10 preparation.
+    </p>
+
+
+    <div class="resource-grid">
+
+
+        <div class="resource searchable">
+
+            <h3>
+                📄 Previous Year Questions
+            </h3>
+
+            <p>
+                Practice previous year papers
+                and understand the examination pattern.
+            </p>
+
+            <a
+                class="drive-btn"
+                href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Open PYQs →
+            </a>
+
+        </div>
+
+
+        <div class="resource searchable">
+
+            <h3>
+                🎯 CFQs
+            </h3>
+
+            <p>
+                Practice competency-focused
+                questions and improve concepts.
+            </p>
+
+            <a
+                class="drive-btn"
+                href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Open CFQs →
+            </a>
+
+        </div>
+
+
+        <div class="resource searchable">
+
+            <h3>
+                📑 Specimen Papers
+            </h3>
+
+            <p>
+                Practice specimen papers
+                and prepare for the examination format.
+            </p>
+
+            <a
+                class="drive-btn"
+                href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Open Specimen →
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     COMPLETE STUDY MATERIAL
+     ===================================================== -->
+
+<section class="section">
+
+    <div class="drive">
+
+        <h2>
+            ☁️ Complete Study Material
+        </h2>
+
+        <p>
+            PYQs • CFQs • Specimen Papers •
+            Previous Year Papers
+        </p>
+
+        <a
+            href="https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            🚀 Open Complete Google Drive
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     STUDY TIPS
+     ===================================================== -->
+
+<section class="section">
+
+    <h2 class="title">
+        💡 Study Smart
+    </h2>
+
+    <p class="subtitle">
+        Simple habits for better examination preparation.
+    </p>
+
+
+    <div class="tips">
+
+
+        <div class="tip">
+
+            <h3>
+                📅 Make a Plan
+            </h3>
+
+            <p>
+                Divide your syllabus into
+                small daily targets.
+            </p>
+
+        </div>
+
+
+        <div class="tip">
+
+            <h3>
+                📝 Practice PYQs
+            </h3>
+
+            <p>
+                Solve previous year questions
+                regularly.
+            </p>
+
+        </div>
+
+
+        <div class="tip">
+
+            <h3>
+                🔄 Revise
+            </h3>
+
+            <p>
+                Revise formulas, definitions,
+                diagrams and concepts.
+            </p>
+
+        </div>
+
+
+        <div class="tip">
+
+            <h3>
+                ⏱️ Time Yourself
+            </h3>
+
+            <p>
+                Practice papers with a timer
+                to improve your speed.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     QUIZ
+     ===================================================== -->
+
+<section class="section">
+
+    <div class="puzzle">
+
+        <div class="puzzle-icon">
+            🧠
+        </div>
+
+        <h2>
+            🎮 Class 10 ICSE Brain Challenge
+        </h2>
+
+        <p class="puzzle-subtitle">
+            Test your Class 10 knowledge!
+        </p>
+
+
+        <h3 id="question">
+            Question
+        </h3>
+
+
+        <div id="options"></div>
+
+
+        <button
+            class="next-btn"
+            id="nextBtn"
+            type="button"
+            onclick="nextQuestion()"
+        >
+            Next Question →
+        </button>
+
+
+        <button
+            class="restart-btn"
+            id="restartBtn"
+            type="button"
+            onclick="restartQuiz()"
+        >
+            🔄 Play Again
+        </button>
+
+
+        <p id="score">
+            Score: 0 / 10
+        </p>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer>
+
+    <p class="name">
+        Made with ❤️ by Madhav
+    </p>
+
+    <p>
+        ICSE Class 10-B Educational Hub
+    </p>
+
+    <p>
+        © 2026–27 | All Rights Reserved
+    </p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
