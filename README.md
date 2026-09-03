@@ -464,7 +464,7 @@ footer .name {
                 the ICSE examination pattern.
             </p>
 
-            <a href="https://drive.google.com/drive/folders/1oTAXyQ2NQtuhBYTLG-UOwJ4AXXLLtFpz"
+            <a href=https://drive.google.com/drive/folders/1at14131FhYvGWQiH975OWwXiVZWrhF1W
                target="_blank"
                class="btn">
                Open PYQs →
